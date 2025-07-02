@@ -1,5 +1,19 @@
 # @hyperlane-xyz/registry
 
+## 19.1.0
+
+### Minor Changes
+
+- 292dc47: Deprecate guru.
+- 684a943: Add RCADE/arbitrum-bsc deploy artifacts
+- b48f662: Deploy to galactica, remove kroma.
+- 512322c: Deploy to xrplevm.
+
+### Patch Changes
+
+- 30a1387: Remove zan RPC from starknet metadata because it causes issues when getting tx status
+- bfdb552: Update and fix coingecko ids for LOGX, AIXBT, MINT, ELIZA, MEW and Pnut
+
 ## 19.0.0
 
 ### Major Changes
