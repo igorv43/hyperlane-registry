@@ -12,7 +12,6 @@ LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
       logoURI: https://raw.githubusercontent.com/classic-terra/assets/60d34b97178cfdcd77fb87d7deeb7d3ab0ede6ee/icon/svg/LUNC.svg
       name: Luna Classic
       symbol: LUNC
-
     - addressOrDenom: 0x2144be4477202ba2d50c9a8be3181241878cf7d8
       chainName: bsctestnet
       standard: EvmHypSynthetic
@@ -22,7 +21,6 @@ LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
       logoURI: https://raw.githubusercontent.com/classic-terra/assets/60d34b97178cfdcd77fb87d7deeb7d3ab0ede6ee/icon/svg/LUNC.svg
       name: Luna Classic
       symbol: wwwwLUNC
-
     - addressOrDenom: 0x224a4419D7FA69D3bEbAbce574c7c84B48D829b4
       chainName: sepolia
       standard: EvmHypSynthetic
@@ -32,7 +30,6 @@ LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
       logoURI: https://raw.githubusercontent.com/classic-terra/assets/60d34b97178cfdcd77fb87d7deeb7d3ab0ede6ee/icon/svg/LUNC.svg
       name: Luna Classic
       symbol: LUNC
-
     - addressOrDenom: HNxN3ZSBtD5J2nNF4AATMhuvTWVeHQf18nTtzKtsnkyw
       chainName: solanatestnet
       standard: SealevelHypSynthetic
