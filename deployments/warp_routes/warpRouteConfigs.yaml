@@ -44,32 +44,32 @@ LUNC/terraclassic-multichain:
       name: Luna Classic
       symbol: wwwwwLUNC
 
-  options:
-    interchainFeeConstants:
-      - origin: terraclassictestnet
-        destination: bsctestnet
-        amount: 1780832150
-        addressOrDenom: uluna
+  # options:
+  #   interchainFeeConstants:
+  #     - origin: terraclassictestnet
+  #       destination: bsctestnet
+  #       amount: 1780832150
+  #       addressOrDenom: uluna
 
-      - origin: terraclassictestnet
-        destination: solanatestnet
-        amount: 1780832150
-        addressOrDenom: uluna
+  #     - origin: terraclassictestnet
+  #       destination: solanatestnet
+  #       amount: 1780832150
+  #       addressOrDenom: uluna
 
-      - origin: terraclassictestnet
-        destination: sepolia
-        amount: 1780832150
-        addressOrDenom: uluna
+  #     - origin: terraclassictestnet
+  #       destination: sepolia
+  #       amount: 1780832150
+  #       addressOrDenom: uluna
 
-    localFeeConstants:
-      - origin: terraclassictestnet
-        destination: bsctestnet
-        amount: 383215
+  #   localFeeConstants:
+  #     - origin: terraclassictestnet
+  #       destination: bsctestnet
+  #       amount: 383215
 
-      - origin: terraclassictestnet
-        destination: solanatestnet
-        amount: 383215
+  #     - origin: terraclassictestnet
+  #       destination: solanatestnet
+  #       amount: 383215
 
-      - origin: terraclassictestnet
-        destination: sepolia
-        amount: 383215
+  #     - origin: terraclassictestnet
+  #       destination: sepolia
+  #       amount: 383215
