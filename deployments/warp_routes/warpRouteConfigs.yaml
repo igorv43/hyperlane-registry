@@ -1,9 +1,9 @@
 LUNC/terraclassic-multichain:
   tokens:
-    - chainName: terraclassictestnet
+    - addressOrDenom: terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
+      chainName: terraclassictestnet
       standard: CwHypCollateral
       collateralAddressOrDenom: uluna
-      addressOrDenom: terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       connections:
         - token: ethereum|bsctestnet|0x2144be4477202ba2d50c9a8be3181241878cf7d8
         - token: ethereum|sepolia|0x224a4419D7FA69D3bEbAbce574c7c84B48D829b4
@@ -13,9 +13,9 @@ LUNC/terraclassic-multichain:
       name: Luna Classic
       symbol: LUNC
 
-    - chainName: bsctestnet
+    - addressOrDenom: 0x2144be4477202ba2d50c9a8be3181241878cf7d8
+      chainName: bsctestnet
       standard: EvmHypSynthetic
-      addressOrDenom: 0x2144be4477202ba2d50c9a8be3181241878cf7d8
       connections:
         - token: cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       decimals: 6
@@ -23,9 +23,9 @@ LUNC/terraclassic-multichain:
       name: Luna Classic
       symbol: wwwwLUNC
 
-    - chainName: sepolia
+    - addressOrDenom: 0x224a4419D7FA69D3bEbAbce574c7c84B48D829b4
+      chainName: sepolia
       standard: EvmHypSynthetic
-      addressOrDenom: 0x224a4419D7FA69D3bEbAbce574c7c84B48D829b4
       connections:
         - token: cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       decimals: 6
@@ -33,9 +33,9 @@ LUNC/terraclassic-multichain:
       name: Luna Classic
       symbol: LUNC
 
-    - chainName: solanatestnet
+    - addressOrDenom: HNxN3ZSBtD5J2nNF4AATMhuvTWVeHQf18nTtzKtsnkyw
+      chainName: solanatestnet
       standard: SealevelHypSynthetic
-      addressOrDenom: HNxN3ZSBtD5J2nNF4AATMhuvTWVeHQf18nTtzKtsnkyw
       collateralAddressOrDenom: 3yhG9dDHVX6K1duf8znEcaJcuTiKSLYvfBD4xy6akxfu
       connections:
         - token: cosmos|terraclassictestnet|terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
