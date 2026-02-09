@@ -1,4 +1,4 @@
-LUNC/terraclassic-multichain:
+LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
   tokens:
     - addressOrDenom: terra1zlm0h2xu6rhnjchn29hxnpvr74uxxqetar9y75zcehyx2mqezg9slj09ml
       chainName: terraclassictestnet
