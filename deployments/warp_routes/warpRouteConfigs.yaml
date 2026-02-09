@@ -44,4 +44,27 @@ LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
       logoURI: "https://raw.githubusercontent.com/classic-terra/assets/60d34b97178cfdcd77fb87d7deeb7d3ab0ede6ee/icon/svg/LUNC.svg"
       name: "Luna Classic"
       symbol: "wwwwwLUNC"
-  options: {}
+  options:
+    interchainFeeConstants:
+      - origin: "terraclassictestnet"
+        destination: "bsctestnet"
+        amount: 1780832150
+        addressOrDenom: "uluna"
+      - origin: "terraclassictestnet"
+        destination: "solanatestnet"
+        amount: 1780832150
+        addressOrDenom: "uluna"
+      - origin: "terraclassictestnet"
+        destination: "sepolia"
+        amount: 1780832150
+        addressOrDenom: "uluna"
+    localFeeConstants:
+      - origin: "terraclassictestnet"
+        destination: "bsctestnet"
+        amount: 383215
+      - origin: "terraclassictestnet"
+        destination: "solanatestnet"
+        amount: 383215
+      - origin: "terraclassictestnet"
+        destination: "sepolia"
+        amount: 383215
