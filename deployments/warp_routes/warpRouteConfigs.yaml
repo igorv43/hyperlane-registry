@@ -68,3 +68,37 @@ LUNC/terraclassictestnet-bsctestnet-sepolia-solanatestnet:
       - origin: "terraclassictestnet"
         destination: "sepolia"
         amount: 383215
+USTC/terraclassictestnet-solanatestnet:
+  tokens:
+    - addressOrDenom: "terra1rnpvpwvqcf94keldtm2udt4tqhwthpw5cu94m443rz5ue7rvvkjq9nklml"
+      chainName: "terraclassictestnet"
+      standard: "CwHypCollateral"
+      collateralAddressOrDenom: "uusd"
+      connections:
+        - token: "sealevel|solanatestnet|7PtxvK2AB8TmhygeWDyVjkCKvBST16QFb8j6tdSLtoha"
+      decimals: 6
+      logoURI: "https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg"
+      name: "Terra UST Classic"
+      symbol: "USTC"
+    - addressOrDenom: "7PtxvK2AB8TmhygeWDyVjkCKvBST16QFb8j6tdSLtoha"
+      chainName: "solanatestnet"
+      standard: "SealevelHypSynthetic"
+      collateralAddressOrDenom: "GDzqsfF9NHdeZXNnWZrjxFhzyUaCgG7PsBSz2Nr89xdy"
+      connections:
+        - token: "cosmos|terraclassictestnet|terra1rnpvpwvqcf94keldtm2udt4tqhwthpw5cu94m443rz5ue7rvvkjq9nklml"
+      decimals: 6
+      logoURI: "https://raw.githubusercontent.com/classic-terra/assets/refs/heads/master/icon/svg/Terra/UST.svg"
+      name: "Terra UST Classic"
+      symbol: "USTC"
+  options:
+    interchainFeeConstants:
+      - origin: "terraclassictestnet"
+        destination: "solanatestnet"
+        amount: 1780832150
+        addressOrDenom: "uluna"
+      
+    localFeeConstants:
+      - origin: "terraclassictestnet"
+        destination: "solanatestnet"
+        amount: 383215
+     
