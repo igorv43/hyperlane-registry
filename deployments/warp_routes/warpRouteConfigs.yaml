@@ -106,7 +106,7 @@ JURIS/terraclassictestnet-solanatestnet:
     - addressOrDenom: "terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l"
       chainName: "terraclassictestnet"
       standard: "CwHypCollateral"
-      collateralAddressOrDenom: "uluna"
+      collateralAddressOrDenom: "terra1w7d0jqehn0ja3hkzsm0psk6z2hjz06lsq0nxnwkzkkq4fqwgq6tqa5te8e"
       connections:
         - token: "sealevel|solanatestnet|G3eEYHv2GrBJ6KTS3XQhRd7QYdwnfWjisQrSVWedQK4y"
       decimals: 6
