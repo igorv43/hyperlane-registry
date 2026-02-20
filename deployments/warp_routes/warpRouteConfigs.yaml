@@ -116,7 +116,7 @@ JURIS/terraclassictestnet-solanatestnet:
     - addressOrDenom: "G3eEYHv2GrBJ6KTS3XQhRd7QYdwnfWjisQrSVWedQK4y"
       chainName: "solanatestnet"
       standard: "SealevelHypSynthetic"
-      collateralAddressOrDenom: "GDzqsfF9NHdeZXNnWZrjxFhzyUaCgG7PsBSz2Nr89xdy"
+      collateralAddressOrDenom: "ExzEij8z7xc71kvjuMHmejRkmM4ACgKjDWuEaXdDubRa"
       connections:
         - token: "cosmos|terraclassictestnet|terra1stu3cl7mhtsc2mf9cputawfd6v6e4a2nkmhhphh47lsrr3j6ktdqlcfe2l"
       decimals: 6
