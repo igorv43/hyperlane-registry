@@ -127,7 +127,7 @@ JURIS/terraclassictestnet-solanatestnet:
     interchainFeeConstants:
       - origin: "terraclassictestnet"
         destination: "solanatestnet"
-        amount: 1780832150
+        amount: 17808321
         addressOrDenom: "uluna"
       
     localFeeConstants:
