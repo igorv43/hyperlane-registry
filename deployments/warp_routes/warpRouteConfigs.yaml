@@ -173,10 +173,17 @@ XPTO/terraclassictestnet-sepolia-solana:
         destination: "sepolia"
         amount: 1780832150
         addressOrDenom: "uluna"
-      
+      - origin: "terraclassictestnet"
+        destination: "solanatestnet"
+        amount: 17808321
+        addressOrDenom: "uluna"
+
     localFeeConstants:
       - origin: "terraclassictestnet"
         destination: "sepolia"
+        amount: 383215  
+      - origin: "terraclassictestnet"
+        destination: "solanatestnet"
         amount: 383215  
 XPV/terraclassictestnet-sepolia-bsctestnet:
   tokens:
