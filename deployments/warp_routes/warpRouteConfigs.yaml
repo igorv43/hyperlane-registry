@@ -167,7 +167,7 @@ XPTO/terraclassictestnet-sepolia:
       - origin: "terraclassictestnet"
         destination: "sepolia"
         amount: 383215  
-XPV/terraclassictestnet-sepolia:
+XPV/terraclassictestnet-sepolia-bsctestnet:
   tokens:
     - addressOrDenom: "terra1dnflusc7slapvals97em3fj4vrfyx90npr3znq6y45qjy7hhd6jqchqsgx"
       chainName: "terraclassictestnet"
@@ -175,6 +175,7 @@ XPV/terraclassictestnet-sepolia:
       collateralAddressOrDenom: "terra1f2jw36hc7fzeu7dz2fhk250ezec7e80c2s6uxt3ry5ujjjslf9nqwvpu88"
       connections:
        - token: "ethereum|sepolia|0x6a573cba0f06B3994bc8B31b737Ab50cdfc0aB8f"
+       - token: "ethereum|bsctestnet|0x11D6aa52d60611a513ab783842Dc397C86E7fff0"
       decimals: 6
       logoURI: ""
       name: "XPV Teste"
@@ -188,17 +189,33 @@ XPV/terraclassictestnet-sepolia:
       logoURI: ""
       name: "XPV Teste"
       symbol: "XPV"
+    - addressOrDenom: "0x11D6aa52d60611a513ab783842Dc397C86E7fff0"
+      chainName: "bsctestnet"
+      standard: "EvmHypSynthetic"
+      connections:
+        - token: "cosmos|terraclassictestnet|terra1dnflusc7slapvals97em3fj4vrfyx90npr3znq6y45qjy7hhd6jqchqsgx"
+      decimals: 6
+      logoURI: ""
+      name: "XPV Teste"
+      symbol: "XPV"
+    
   options:
     interchainFeeConstants:
       - origin: "terraclassictestnet"
         destination: "sepolia"
         amount: 1780832150
         addressOrDenom: "uluna"
-      
+      - origin: "terraclassictestnet"
+        destination: "bsctestnet"
+        amount: 1780832150
+        addressOrDenom: "uluna"
     localFeeConstants:
       - origin: "terraclassictestnet"
         destination: "sepolia"
         amount: 383215    
+      - origin: "terraclassictestnet"
+        destination: "bsctestnet"
+        amount: 383215     
 XPTV/terraclassictestnet-sepolia:
   tokens:
     - addressOrDenom: "terra1n8y4sj9lrqq66pf7je0nm7s6nhln5z4s3accw9g2aassdh8dzqts9y0928"
